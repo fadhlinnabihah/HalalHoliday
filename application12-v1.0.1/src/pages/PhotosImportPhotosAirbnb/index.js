@@ -103,7 +103,6 @@ const PhotosImportPhotosAirbnbPage = () => {
                     placeholder="https://www.airbnb.com/photos/xxxxxxxx"
                     shape="RoundedBorder3"
                     size="sm"
-                    variant="OutlineGray503"
                   ></Input>
                 </Column>
                 <Column className="font-ptsans items-center justify-start lg:mt-[15px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] w-[100%]">

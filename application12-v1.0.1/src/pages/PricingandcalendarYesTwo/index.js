@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const PricingandcalendarYesTwoPage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate99() {
+  function handleNavigate78() {
     navigate("/pricingandcalendaryes");
   }
   function handleNavigate100() {
@@ -231,7 +231,7 @@ const PricingandcalendarYesTwoPage = () => {
                     <Img
                       src="images/img_arrowleft.svg"
                       className="common-pointer arrowleft"
-                      onClick={handleNavigate99}
+                      onClick={handleNavigate78}
                       alt="arrowleft"
                     />
                   </Stack>
@@ -249,7 +249,7 @@ const PricingandcalendarYesTwoPage = () => {
                   </Column>
                 </Stack>
               </Column>
-              <Column className="bg-blue_50 justify-start lg:ml-[290px] xl:ml-[363px] 2xl:ml-[409px] 3xl:ml-[491px] lg:mt-[339px] xl:mt-[424px] 2xl:mt-[477px] 3xl:mt-[572px] p-[4px] shadow-bs w-[23%]">
+              <Column className="bg-blue_50 justify-start lg:ml-[290px] xl:ml-[363px] 2xl:ml-[409px] 3xl:ml-[491px] lg:mt-[339px] xl:mt-[424px] 2xl:mt-[477px] 3xl:mt-[572px] p-[4px] shadow-bs w-[22%]">
                 <Img
                   src="images/img_close.svg"
                   className="close_One"

@@ -11,13 +11,10 @@ const PricingandcalendarYesPage = () => {
     navigate("/pricingandcalendarno");
   }
   function handleNavigate90() {
-    navigate("/pricingandcalendaryestwo");
+    navigate("/");
   }
   function handleNavigate91() {
-    navigate("/pricingandcalendarno");
-  }
-  function handleNavigate92() {
-    navigate("/pricingandcalendarno");
+    navigate("/pricingandcalendaryestwo");
   }
 
   return (
@@ -99,7 +96,7 @@ const PricingandcalendarYesPage = () => {
                   <Img
                     src="images/img_round.png"
                     className="py-px round-ful common-pointer bookmark"
-                    onClick={handleNavigate91}
+                    onClick={handleNavigate89}
                     alt="Round"
                   />
                   <Text className="iconradio3" variant="body4">
@@ -109,32 +106,32 @@ const PricingandcalendarYesPage = () => {
               </Column>
             </Column>
           </Column>
-          <Stack className="lg:h-[53px] xl:h-[66px] 2xl:h-[75px] 3xl:h-[89px] xl:ml-[124px] 2xl:ml-[140px] 3xl:ml-[168px] lg:ml-[99px] lg:mt-[14px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] w-[39%]">
-            <Stack
-              className="common-pointer absolute bg-white_A700 bottom-[0] lg:h-[35px] xl:h-[44px] 2xl:h-[50px] 3xl:h-[59px] left-[0] outline outline-[1px] outline-light_blue_500 3xl:px-[10px] lg:px-[6px] xl:px-[8px] 2xl:px-[9px] shadow-bs w-[13%]"
-              onClick={handleNavigate89}
-            >
-              <Img
-                src="images/img_arrowleft.svg"
-                className="arrowleft"
-                onClick={handleNavigate92}
-                alt="arrowleft"
-              />
+          <Line className="bg-gray_200 h-[1px] w-[100%]" />
+          <Row>
+            <Stack className="lg:h-[53px] xl:h-[66px] 2xl:h-[75px] 3xl:h-[89px] xl:ml-[124px] 2xl:ml-[140px] 3xl:ml-[168px] lg:ml-[99px] lg:mt-[14px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] w-[39%]">
+              <Stack className="common-pointer absolute bg-white_A700 bottom-[0] lg:h-[35px] xl:h-[44px] 2xl:h-[50px] 3xl:h-[59px] left-[0] outline outline-[1px] outline-light_blue_500 3xl:px-[10px] lg:px-[6px] xl:px-[8px] 2xl:px-[9px] shadow-bs w-[13%]">
+                <Img
+                  src="images/img_arrowleft.svg"
+                  className="arrowleft"
+                  onClick={handleNavigate90}
+                  alt="arrowleft"
+                />
+              </Stack>
+              <Column className="absolute items-end justify-start w-[100%]">
+                <Line className="bg-gray_200 h-[1px] w-[100%]" />
+                <Button
+                  className="common-pointer font-bold hover:bg-sky-900 lg:mt-[14px] xl:mt-[18px] 2xl:mt-[21px] 3xl:mt-[25px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[84%]"
+                  onClick={handleNavigate91}
+                  size="xl"
+                  shape="RoundedBorder3"
+                  variant="FillLightblue800"
+                >
+                  Continue
+                </Button>
+              </Column>
             </Stack>
-            <Column className="absolute items-end justify-start w-[100%]">
-              <Line className="bg-gray_200 h-[1px] w-[100%]" />
-              <Button
-                className="common-pointer font-bold hover:bg-sky-900 lg:mt-[14px] xl:mt-[18px] 2xl:mt-[21px] 3xl:mt-[25px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[84%]"
-                onClick={handleNavigate90}
-                size="xl"
-                shape="RoundedBorder3"
-                variant="FillLightblue800"
-              >
-                Continue
-              </Button>
-            </Column>
-          </Stack>
-          <Column className="bg-blue_50 justify-start 2xl:ml-[1113px] 3xl:ml-[1336px] lg:ml-[791px] xl:ml-[990px] lg:mt-[56px] xl:mt-[71px] 2xl:mt-[80px] 3xl:mt-[96px] p-[4px] shadow-bs w-[20%]">
+          </Row>
+          <Column className="bg-blue_50 justify-start 2xl:ml-[1113px] 3xl:ml-[1336px] lg:ml-[791px] xl:ml-[990px] lg:mt-[56px] xl:mt-[71px] 2xl:mt-[80px] 3xl:mt-[96px] p-[4px] shadow-bs w-[19.5%]">
             <Img src="images/img_close.svg" className="close_One" alt="close" />
             <Column className="justify-start xl:mb-[10px] 2xl:mb-[12px] 3xl:mb-[14px] lg:mb-[8px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] mx-[auto] w-[92%]">
               <Text className="columndescription_two" variant="body4">

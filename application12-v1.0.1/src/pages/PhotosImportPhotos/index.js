@@ -122,7 +122,7 @@ const PhotosImportPhotosPage = () => {
                           </Stack>
                         </Column>
                       </Stack>
-                      <Row className="font-ptsans lg:mb-[23px] xl:mb-[29px] 2xl:mb-[33px] 3xl:mb-[39px] ml-[auto] lg:mt-[43px] xl:mt-[54px] 2xl:mt-[61px] 3xl:mt-[73px] w-[69%]">
+                      <Row className="font-ptsans lg:mb-[23px] xl:mb-[29px] 2xl:mb-[33px] 3xl:mb-[39px] ml-[auto] lg:mt-[43px] xl:mt-[54px] 2xl:mt-[61px] 3xl:mt-[73px] w-[70%]">
                         <Img
                           src="images/img_bookmark.svg"
                           className="common-pointer bookmark"
@@ -147,7 +147,7 @@ const PhotosImportPhotosPage = () => {
                     />
                     <Stack className="lg:h-[228px] xl:h-[285px] 2xl:h-[321px] 3xl:h-[385px] lg:mb-[14px] xl:mb-[17px] 2xl:mb-[20px] 3xl:mb-[24px] xl:ml-[11px] 2xl:ml-[13px] 3xl:ml-[15px] lg:ml-[9px] 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] w-[80%]">
                       <Text
-                        className="absolute font-semibold h-[max-content] inset-[0] justify-center leading-[normal] m-[auto] text-black_900 w-[87%]"
+                        className="absolute font-semibold h-[max-content] inset-[0] justify-center leading-[normal] m-[2] text-black_900 w-[87%]"
                         variant="body4"
                       >
                         <span className="text-black_900 font-ptsans font-bold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px]">
@@ -206,13 +206,13 @@ const PhotosImportPhotosPage = () => {
                   </Column>
                 </Column>
               </Column>
-              <Column className="bg-blue_50 justify-start lg:ml-[39px] xl:ml-[48px] 2xl:ml-[55px] 3xl:ml-[66px] lg:mt-[341px] xl:mt-[427px] 2xl:mt-[480px] 3xl:mt-[576px] p-[4px] shadow-bs w-[23%]">
+              <Column className="bg-blue_50 justify-end lg:ml-[39px] xl:ml-[48px] 2xl:ml-[55px] 3xl:ml-[66px] lg:mt-[341px] xl:mt-[427px] 2xl:mt-[480px] 3xl:mt-[576px] p-[4px] shadow-bs w-[22%]">
                 <Img
                   src="images/img_close.svg"
                   className="close_One"
                   alt="close One"
                 />
-                <Column className="justify-start xl:mb-[10px] 2xl:mb-[12px] 3xl:mb-[14px] lg:mb-[8px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] mx-[auto] w-[92%]">
+                <Column className="xl:mb-[10px] 2xl:mb-[12px] 3xl:mb-[14px] lg:mb-[8px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] mx-[auto] w-[92%]">
                   <Text className="columndescription_two" variant="body4">
                     Is there anything preventing you from <br />
                     completing your registration at this <br />

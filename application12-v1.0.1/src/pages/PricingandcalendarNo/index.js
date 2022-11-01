@@ -75,7 +75,7 @@ const PricingandcalendarNoPage = () => {
               <div className="bg-gray_50 3xl:h-[103px] lg:h-[61px] xl:h-[76px] 2xl:h-[86px] shadow-bs w-[3%]"></div>
             </Row>
             <Row className="justify-start xl:ml-[auto] 2xl:ml-[140px] 3xl:ml-[168px] lg:ml-[99px] xl:mt-[117px] 2xl:mt-[132px] 3xl:mt-[158px] lg:mt-[93px] w-[88%]">
-              <Column className="items-center justify-start w-[45%]">
+              <Column className="justify-start w-[45%]">
                 <Column className="justify-start w-[100%]">
                   <Text className="Airbnb" variant="body1">
                     Guest payment options
@@ -219,7 +219,7 @@ const PricingandcalendarNoPage = () => {
                   />
                 </Stack>
               </Row>
-              <Column className="bg-blue_50 font-ptsans justify-start lg:ml-[39px] xl:ml-[48px] 2xl:ml-[55px] 3xl:ml-[66px] lg:mt-[342px] xl:mt-[427px] 2xl:mt-[481px] 3xl:mt-[577px] p-[4px] shadow-bs w-[23%]">
+              <Column className="bg-blue_50 font-ptsans justify-start lg:ml-[39px] xl:ml-[48px] 2xl:ml-[55px] 3xl:ml-[66px] lg:mt-[342px] xl:mt-[427px] 2xl:mt-[481px] 3xl:mt-[577px] p-[4px] shadow-bs w-[22%]">
                 <Img
                   src="images/img_close.svg"
                   className="close_One"

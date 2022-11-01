@@ -37,11 +37,6 @@ import PricingandcalendarFiveOne from "pages/PricingandcalendarFiveOne";
 import ParkingOne from "pages/ParkingOne";
 import PricingandcalendarRateplansOne from "pages/PricingandcalendarRateplansOne";
 import PricingandcalendarPricepernightOne from "pages/PricingandcalendarPricepernightOne";
-import PricingandcalendarYesTwoOne from "pages/PricingandcalendarYesTwoOne";
-import PricingandcalendarYesOne from "pages/PricingandcalendarYesOne";
-import PricingandcalendarNoOne from "pages/PricingandcalendarNoOne";
-import PhotosImportPhotosAirbnbOne from "pages/PhotosImportPhotosAirbnbOne";
-import PhotosImportPhotosOne from "pages/PhotosImportPhotosOne";
 import HostprofileOne from "pages/HostprofileOne";
 import RulesOne from "pages/RulesOne";
 import LanguageOne from "pages/LanguageOne";
@@ -129,26 +124,9 @@ const ProjectRoutes = () => {
         <Route path="/languageone" element={<LanguageOne />} />
         <Route path="/rulesone" element={<RulesOne />} />
         <Route path="/hostprofileone" element={<HostprofileOne />} />
-        <Route
-          path="/photosimportphotosone"
-          element={<PhotosImportPhotosOne />}
-        />
-        <Route
-          path="/photosimportphotosairbnbone"
-          element={<PhotosImportPhotosAirbnbOne />}
-        />
-        <Route
-          path="/pricingandcalendarnoone"
-          element={<PricingandcalendarNoOne />}
-        />
-        <Route
-          path="/pricingandcalendaryesone"
-          element={<PricingandcalendarYesOne />}
-        />
-        <Route
-          path="/pricingandcalendaryestwoone"
-          element={<PricingandcalendarYesTwoOne />}
-        />
+        
+        
+        
         <Route
           path="/pricingandcalendarpricepernightone"
           element={<PricingandcalendarPricepernightOne />}
