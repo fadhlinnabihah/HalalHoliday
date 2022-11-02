@@ -160,7 +160,7 @@ const PricingandcalendarFivePage = () => {
                           <Text className="description_One4" variant="body5">
                             You will avoid double bookings by syncing calendars.
                             It will also help you get your property listed on
-                            Booking.com and open for bookings 80% faster.
+                            HalalHoliday.com and open for bookings 80% faster.
                           </Text>
                           <Row className="items-end 3xl:ml-[10px] lg:ml-[6px] xl:ml-[8px] 2xl:ml-[9px] lg:mt-[12px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] w-[57%]">
                             <Img

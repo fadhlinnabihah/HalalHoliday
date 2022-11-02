@@ -117,7 +117,7 @@ const PricingandcalendarNoPage = () => {
                         className="lg:mt-[4px] xl:mt-[6px] 2xl:mt-[7px] 3xl:mt-[8px] columneachpropertyw"
                         variant="body6"
                       >
-                        You can have guests pay via Payments by Booking.com.
+                        You can have guests pay via Payments by HalalHoliday.com.
                       </Text>
                       <Text
                         className="font-hairline font-roboto leading-[normal] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-black_900 w-[25%]"
@@ -180,7 +180,7 @@ const PricingandcalendarNoPage = () => {
                     variant="body4"
                   >
                     <span className="text-black_900 font-ptsans font-bold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px]">
-                      How does Payments by Booking.com work?
+                      How does Payments by HalalHoliday.com work?
                       <br />
                     </span>
                     <span className="text-black_900 font-ptsans font-bold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
@@ -194,7 +194,7 @@ const PricingandcalendarNoPage = () => {
                       method.
                       <br />
                       <br />
-                      2. Booking.com facilitates payment
+                      2. HalalHoliday.com facilitates payment
                       <br />
                       <br />
                       We facilitate the guest’s payment on your behalf, ensuring

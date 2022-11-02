@@ -51,7 +51,7 @@ const Input = React.forwardRef(
           {!!prefix && prefix}
           <input
             ref={ref}
-            className={`${className} `}
+            className={`${className} bg-transparent border-0`}
             type={type}
             name={name}
             placeholder={placeholder}
