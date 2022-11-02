@@ -3,7 +3,9 @@ module.exports = {
   content: [
     "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./node_modules/flowbite/**/*.js",
   ],
+  plugins: [require("flowbite/plugin")],
   darkMode: "class",
   theme: {
     screens: { lg: "1024px", xl: "1281px", "2xl": "1441px", "3xl": "1729px" },
