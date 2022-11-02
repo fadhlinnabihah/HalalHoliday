@@ -117,7 +117,8 @@ const PricingandcalendarNoPage = () => {
                         className="lg:mt-[4px] xl:mt-[6px] 2xl:mt-[7px] 3xl:mt-[8px] columneachpropertyw"
                         variant="body6"
                       >
-                        You can have guests pay via Payments by HalalHoliday.com.
+                        You can have guests pay via Payments by
+                        HalalHoliday.com.
                       </Text>
                       <Text
                         className="font-hairline font-roboto leading-[normal] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-black_900 w-[25%]"
@@ -168,15 +169,15 @@ const PricingandcalendarNoPage = () => {
                   </Column>
                 </Column>
               </Column>
-              <Row className="bg-white_A700 font-roboto items-start lg:mb-[46px] xl:mb-[57px] 2xl:mb-[65px] 3xl:mb-[78px] 2xl:ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:mt-[24px] xl:mt-[31px] 2xl:mt-[35px] 3xl:mt-[42px] lg:p-[10px] xl:p-[13px] 2xl:p-[15px] 3xl:p-[18px] shadow-bs w-[27%]">
+              <Row className="bg-white_A700 font-roboto items-start lg:mb-[46px] xl:mb-[57px] 2xl:mb-[65px] 3xl:mb-[78px] 2xl:ml-[25px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] lg:mt-[24px] xl:mt-[31px] 2xl:mt-[40px] 3xl:mt-[42px] lg:p-[10px] xl:p-[13px] 2xl:p-[10px] 3xl:p-[18px] shadow-bs w-[25%]">
                 <Img
                   src="images/img_lightbulb.svg"
                   className="lightbulb"
                   alt="lightbulb"
                 />
-                <Stack className="lg:h-[360px] xl:h-[450px] 2xl:h-[506px] 3xl:h-[607px] lg:mb-[22px] xl:mb-[27px] 2xl:mb-[31px] 3xl:mb-[37px] 3xl:ml-[10px] lg:ml-[6px] xl:ml-[8px] 2xl:ml-[9px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] w-[82%]">
+                <Stack className="lg:h-[360px] xl:h-[450px] 2xl:h-[506px] 3xl:h-[607px] lg:mb-[22px] xl:mb-[27px] 2xl:mb-[31px] 3xl:mb-[37px] 3xl:ml-[10px] lg:ml-[6px] xl:ml-[8px] 2xl:ml-[12px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] w-[82%]">
                   <Text
-                    className="absolute font-semibold h-[100%] inset-[0] justify-center leading-[normal] m-[auto] text-black_900 w-[98%]"
+                    className="absolute font-semibold h-[100%] inset-[0] justify-center leading-[normal] m-[auto] text-black_900 w-[93%]"
                     variant="body4"
                   >
                     <span className="text-black_900 font-ptsans font-bold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px]">

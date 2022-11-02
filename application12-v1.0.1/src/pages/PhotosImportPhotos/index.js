@@ -147,7 +147,7 @@ const PhotosImportPhotosPage = () => {
                     />
                     <Stack className="lg:h-[228px] xl:h-[285px] 2xl:h-[321px] 3xl:h-[385px] lg:mb-[14px] xl:mb-[17px] 2xl:mb-[20px] 3xl:mb-[24px] xl:ml-[11px] 2xl:ml-[13px] 3xl:ml-[15px] lg:ml-[9px] 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] w-[100%]">
                       <Text
-                        className="absolute font-semibold h-[max-content] inset-[0] justify-center leading-[normal] m-[2] text-black_900 w-[87%]"
+                        className="absolute font-semibold h-[max-content] ml-4 inset-[0] justify-center leading-[normal] m-[2] text-black_900 w-[87%]"
                         variant="body4"
                       >
                         <span className="text-black_900 font-ptsans font-bold lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px]">
@@ -175,7 +175,7 @@ const PhotosImportPhotosPage = () => {
                       </Text>
                       <Img
                         src="images/img_close.svg"
-                        className="mr-[-20] justify-end close"
+                        className="close"
                         alt="close"
                       />
                     </Stack>

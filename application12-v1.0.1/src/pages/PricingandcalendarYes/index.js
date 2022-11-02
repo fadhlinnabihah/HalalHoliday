@@ -82,7 +82,7 @@ const PricingandcalendarYesPage = () => {
                 >
                   Are you able to charge credit cards at your property?
                 </Text>
-                <Row className=" items-center lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] w-[12%]">
+                <Row className=" items-center lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] w-[10%]">
                   <Img
                     src="images/img_record.png"
                     className="py-px round-ful bookmark"
@@ -92,7 +92,7 @@ const PricingandcalendarYesPage = () => {
                     Yes
                   </Text>
                 </Row>
-                <Row className="items-center lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] w-[12%]">
+                <Row className="items-center lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] w-[10%]">
                   <Img
                     src="images/img_round.png"
                     className="py-px round-ful common-pointer bookmark"
