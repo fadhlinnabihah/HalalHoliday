@@ -89,8 +89,7 @@ const PhotosImportPhotosPage = () => {
                           more likely you are to get bookings. You can add more
                           later.
                         </span>
-                      </Text>                     
-
+                      </Text>
                       <Stack className="font-ptsans lg:h-[206px] xl:h-[258px] 2xl:h-[290px] 3xl:h-[348px] lg:ml-[20px] xl:ml-[25px] 2xl:ml-[29px] 3xl:ml-[34px] lg:mt-[13px] xl:mt-[16px] 2xl:mt-[19px] 3xl:mt-[22px] w-[93%]">
                         <Text
                           className="absolute bottom-[33%] font-normal inset-x-[0] leading-[normal] mx-[auto] not-italic text-black_900 text-center w-[38%]"
@@ -114,8 +113,12 @@ const PhotosImportPhotosPage = () => {
                               >
                                 Upload photos
                               </Text>
-                              <input class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-slate-50 cursor-pointer dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="multiple_files" type="file" multiple></input>
-
+                              <input
+                                class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-slate-50 cursor-pointer dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+                                id="multiple_files"
+                                type="file"
+                                multiple
+                              ></input>
                             </Column>
                             <Img
                               src="images/img_camera.svg"
