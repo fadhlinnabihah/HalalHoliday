@@ -60,7 +60,7 @@ const PhotosImportPhotosPage = () => {
               <div className="bg-gray_50 3xl:h-[103px] lg:h-[61px] xl:h-[76px] 2xl:h-[86px] shadow-bs w-[19%]"></div>
               <div className="bg-gray_50 3xl:h-[103px] lg:h-[61px] xl:h-[76px] 2xl:h-[86px] shadow-bs w-[3%]"></div>
             </Row>
-            
+
             <Row className="items-end justify-end ml-[auto] xl:mt-[118px] 2xl:mt-[133px] 3xl:mt-[159px] lg:mt-[94px] w-[88%]">
               <Column className="justify-start w-[73%]">
                 <Row className="items-start justify-between w-[100%]">
@@ -122,7 +122,7 @@ const PhotosImportPhotosPage = () => {
                           </Stack>
                         </Column>
                       </Stack>
-                      <Row className="font-ptsans lg:mb-[23px] xl:mb-[29px] 2xl:mb-[33px] 3xl:mb-[39px] ml-[auto] lg:mt-[43px] xl:mt-[54px] 2xl:mt-[61px] 3xl:mt-[73px] w-[70%]">
+                      <Row className="font-ptsans lg:mb-[23px] xl:mb-[29px] 2xl:mb-[33px] 3xl:mb-[39px] ml-[auto] lg:mt-[43px] xl:mt-[54px] 2xl:mt-[61px] 3xl:mt-[73px] w-[72%]">
                         <Img
                           src="images/img_bookmark.svg"
                           className="common-pointer bookmark"
@@ -139,13 +139,13 @@ const PhotosImportPhotosPage = () => {
                       </Row>
                     </Column>
                   </Column>
-                  <Row className="bg-white_A700 font-roboto items-start lg:mt-[24px] xl:mt-[30px] 2xl:mt-[34px] 3xl:mt-[40px] 2xl:p-[11px] 3xl:p-[13px] lg:p-[7px] xl:p-[9px] shadow-bs w-[37%]">
+                  <Row className="bg-white_A700 font-roboto items-start lg:mt-[24px] xl:mt-[30px] 2xl:mt-[40px] 3xl:mt-[40px] 2xl:p-[auto] 3xl:p-[13px] lg:p-[7px] xl:p-[9px] shadow-bs w-[36%]">
                     <Img
                       src="images/img_thumbsup.svg"
                       className="2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] bookmark"
                       alt="thumbsup"
                     />
-                    <Stack className="lg:h-[228px] xl:h-[285px] 2xl:h-[321px] 3xl:h-[385px] lg:mb-[14px] xl:mb-[17px] 2xl:mb-[20px] 3xl:mb-[24px] xl:ml-[11px] 2xl:ml-[13px] 3xl:ml-[15px] lg:ml-[9px] 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] w-[80%]">
+                    <Stack className="lg:h-[228px] xl:h-[285px] 2xl:h-[321px] 3xl:h-[385px] lg:mb-[14px] xl:mb-[17px] 2xl:mb-[20px] 3xl:mb-[24px] xl:ml-[11px] 2xl:ml-[13px] 3xl:ml-[15px] lg:ml-[9px] 2xl:mt-[10px] 3xl:mt-[12px] lg:mt-[7px] xl:mt-[8px] w-[100%]">
                       <Text
                         className="absolute font-semibold h-[max-content] inset-[0] justify-center leading-[normal] m-[2] text-black_900 w-[87%]"
                         variant="body4"
@@ -156,9 +156,8 @@ const PhotosImportPhotosPage = () => {
                         </span>
                         <span className="text-black_900 font-ptsans font-normal not-italic lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
                           <br />
-                          No problem! You can use a smartphone or a digital
-                          camera.Here are some tips for taking great photos of
-                          your property
+                          No problem! You can use a 
+                          smartphone or a digital camera.
                           <br />
                           <br />
                         </span>
@@ -169,14 +168,14 @@ const PhotosImportPhotosPage = () => {
                           <br />
                         </span>
                         <span className="text-black_900 font-ptsans font-normal not-italic lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
-                          If you don’t know who took a photo, it's best to avoid
-                          using it. Only use photos others have taken if you
+                          If you don’t know who took a photo, 
+                          it's best to avoid using it. Only use photos others have taken if you
                           have permission.
                         </span>
                       </Text>
                       <Img
                         src="images/img_close.svg"
-                        className="close"
+                        className="mr-[-20] justify-end close"
                         alt="close"
                       />
                     </Stack>

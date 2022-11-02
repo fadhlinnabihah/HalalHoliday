@@ -92,9 +92,11 @@ const PhotosImportPhotosAirbnbPage = () => {
                     </span>
                     <span className="text-black_900 font-ptsans font-normal not-italic lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
                       <br />
-                      <br />
                       Live listing URL address:
                     </span>
+                    <div>
+                      <br />
+                    </div>
                   </Text>
                   <Input
                     className="placeholder:text-gray_503 GroupSixtyNine"
@@ -103,6 +105,7 @@ const PhotosImportPhotosAirbnbPage = () => {
                     placeholder="https://www.airbnb.com/photos/xxxxxxxx"
                     shape="RoundedBorder3"
                     size="sm"
+                    variant="OutlineGray502"
                   ></Input>
                 </Column>
                 <Column className="font-ptsans items-center justify-start lg:mt-[15px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] w-[100%]">
