@@ -80,13 +80,11 @@ const PhotosImportPhotosAirbnbPage = () => {
                       the box below.
                       <br />
                       <br />
-                    </span>
-                    <span className="text-black_900 font-ptsans font-normal not-italic lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
-                      <br />
                       <br />
                     </span>
                     <span className="text-black_900 font-ptsans font-normal not-italic lg:text-[10px] xl:text-[13px] 2xl:text-[15px] 3xl:text-[18px]">
-                      {`Note: Photos taken by Airbnb's professional photographers cannot be uploaded here.`}
+                      Note: Photos taken by Airbnb's professional photographers
+                      cannot be uploaded here.
                       <br />
                       <br />
                     </span>
@@ -99,8 +97,8 @@ const PhotosImportPhotosAirbnbPage = () => {
                     </div>
                   </Text>
                   <Input
-                    className="placeholder:text-gray_503 GroupSixtyNine"
-                    wrapClassName="w-[95%]"
+                    className="mb-2 placeholder:text-gray_503 GroupSixtyNine"
+                    wrapClassName="w-[100%]"
                     name="weburl"
                     placeholder="https://www.airbnb.com/photos/xxxxxxxx"
                     shape="RoundedBorder3"
@@ -135,7 +133,7 @@ const PhotosImportPhotosAirbnbPage = () => {
                   </Column>
                 </Column>
               </Column>
-              <Column className="bg-blue_50 font-ptsans justify-start lg:ml-[290px] xl:ml-[363px] 2xl:ml-[409px] 3xl:ml-[491px] lg:mt-[317px] xl:mt-[396px] 2xl:mt-[446px] 3xl:mt-[535px] p-[4px] shadow-bs w-[23%]">
+              <Column className="bg-blue_50 font-ptsans justify-start lg:ml-[290px] xl:ml-[363px] 2xl:ml-[409px] 3xl:ml-[491px] lg:mt-[317px] xl:mt-[396px] 2xl:mt-[446px] 3xl:mt-[535px] p-[4px] shadow-bs w-[22%]">
                 <Img
                   src="images/img_close.svg"
                   className="close_One"

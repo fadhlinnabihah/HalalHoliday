@@ -116,7 +116,7 @@ const PhotosImportPhotosPage = () => {
                             </Column>
                             <Img
                               src="images/img_camera.svg"
-                              className="absolute items-center justify-center lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] left-[0] lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
+                              className="absolute items-center justify-center 2xl:mt-[5px] lg:h-[26px] xl:h-[35px] 2xl:h-[41px] 3xl:h-[61px] left-[0] lg:w-[35px] xl:w-[44px] 2xl:w-[50px] 3xl:w-[60px]"
                               alt="camera"
                             />
                           </Stack>
@@ -156,8 +156,8 @@ const PhotosImportPhotosPage = () => {
                         </span>
                         <span className="text-black_900 font-ptsans font-normal not-italic lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
                           <br />
-                          No problem! You can use a 
-                          smartphone or a digital camera.
+                          No problem! You can use a smartphone or a digital
+                          camera.
                           <br />
                           <br />
                         </span>
@@ -168,8 +168,8 @@ const PhotosImportPhotosPage = () => {
                           <br />
                         </span>
                         <span className="text-black_900 font-ptsans font-normal not-italic lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
-                          If you don’t know who took a photo, 
-                          it's best to avoid using it. Only use photos others have taken if you
+                          If you don’t know who took a photo, it's best to avoid
+                          using it. Only use photos others have taken if you
                           have permission.
                         </span>
                       </Text>
