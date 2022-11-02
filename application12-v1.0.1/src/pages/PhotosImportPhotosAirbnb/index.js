@@ -133,7 +133,7 @@ const PhotosImportPhotosAirbnbPage = () => {
                   </Column>
                 </Column>
               </Column>
-              <Column className="bg-blue_50 font-ptsans justify-start lg:ml-[290px] xl:ml-[363px] 2xl:ml-[409px] 3xl:ml-[491px] lg:mt-[317px] xl:mt-[396px] 2xl:mt-[446px] 3xl:mt-[535px] p-[4px] shadow-bs w-[22%]">
+              <Column className="bg-blue_50 font-ptsans justify-start lg:ml-[290px] xl:ml-[363px] 2xl:ml-[409px] 3xl:ml-[491px] lg:mt-[317px] xl:mt-[396px] 2xl:mt-[446px] 3xl:mt-[535px] p-[4px] shadow-bs w-[21%]">
                 <Img
                   src="images/img_close.svg"
                   className="close_One"

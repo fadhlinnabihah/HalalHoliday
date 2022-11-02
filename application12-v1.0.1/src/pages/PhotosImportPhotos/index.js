@@ -205,13 +205,13 @@ const PhotosImportPhotosPage = () => {
                   </Column>
                 </Column>
               </Column>
-              <Column className="bg-blue_50 justify-end lg:ml-[39px] xl:ml-[48px] 2xl:ml-[55px] 3xl:ml-[66px] lg:mt-[341px] xl:mt-[427px] 2xl:mt-[480px] 3xl:mt-[576px] p-[4px] shadow-bs w-[22%]">
+              <Column className="bg-blue_50 justify-end lg:ml-[39px] xl:ml-[48px] 2xl:ml-[55px] 3xl:ml-[66px] lg:mt-[341px] xl:mt-[427px] 2xl:mt-[480px] 3xl:mt-[576px] p-[4px] shadow-bs w-[21%]">
                 <Img
                   src="images/img_close.svg"
                   className="close_One"
                   alt="close One"
                 />
-                <Column className="xl:mb-[10px] 2xl:mb-[12px] 3xl:mb-[14px] lg:mb-[8px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] mx-[auto] w-[92%]">
+                <Column className="xl:mb-[10px] 2xl:mb-[12px] 3xl:mb-[14px] lg:mb-[8px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] mx-[auto] w-[90%]">
                   <Text className="columndescription_two" variant="body4">
                     Is there anything preventing you from <br />
                     completing your registration at this <br />

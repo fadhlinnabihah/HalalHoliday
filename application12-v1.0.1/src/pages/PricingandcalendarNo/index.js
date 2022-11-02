@@ -220,7 +220,7 @@ const PricingandcalendarNoPage = () => {
                   />
                 </Stack>
               </Row>
-              <Column className="bg-blue_50 font-ptsans justify-start lg:ml-[39px] xl:ml-[48px] 2xl:ml-[55px] 3xl:ml-[66px] lg:mt-[342px] xl:mt-[427px] 2xl:mt-[481px] 3xl:mt-[577px] p-[4px] shadow-bs w-[22%]">
+              <Column className="bg-blue_50 font-ptsans justify-start lg:ml-[39px] xl:ml-[48px] 2xl:ml-[55px] 3xl:ml-[66px] lg:mt-[342px] xl:mt-[427px] 2xl:mt-[481px] 3xl:mt-[577px] p-[4px] shadow-bs w-[21%]">
                 <Img
                   src="images/img_close.svg"
                   className="close_One"

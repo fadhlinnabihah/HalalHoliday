@@ -221,35 +221,36 @@ const PricingandcalendarYesTwoPage = () => {
                             UnionPay credit card
                           </Text>
                         </Row>
-                        
                       </Column>
                     </Row>
                   </Column>
                 </Column>
-                <Stack className="3xl:h-[101px] lg:h-[60px] xl:h-[75px] 2xl:h-[85px] lg:mt-[18px] xl:mt-[23px] 2xl:mt-[26px] 3xl:mt-[31px] w-[99%]">
-                  <Stack className="absolute bg-white_A700 bottom-[0] lg:h-[35px] xl:h-[44px] 2xl:h-[50px] 3xl:h-[59px] left-[0] outline outline-[1px] outline-light_blue_500 3xl:px-[10px] lg:px-[6px] xl:px-[8px] 2xl:px-[9px] shadow-bs w-[13%]">
-                    <Img
-                      src="images/img_arrowleft.svg"
-                      className="common-pointer arrowleft"
-                      onClick={handleNavigate78}
-                      alt="arrowleft"
-                    />
-                  </Stack>
-                  <Column className="absolute items-end justify-start w-[100%]">
+                <Column className="items-center justify-start lg:mt-[17px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] w-[100%]">
+                  <Column className="common-pointer items-center justify-start w-[100%]">
                     <Line className="bg-gray_200 h-[1px] w-[100%]" />
-                    <Button
-                      className="common-pointer font-bold hover:bg-sky-900 lg:mt-[22px] xl:mt-[27px] 2xl:mt-[31px] 3xl:mt-[37px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[84%]"
-                      onClick={handleNavigate100}
-                      size="xl"
-                      shape="RoundedBorder3"
-                      variant="FillLightblue800"
-                    >
-                      Continue
-                    </Button>
+                    <Row className="items-center justify-between lg:mt-[12px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] w-[100%]">
+                      <Stack className="common-pointer bg-white_A700 lg:h-[35px] xl:h-[44px] 2xl:h-[50px] 3xl:h-[59px] outline outline-[1px] outline-light_blue_500 3xl:px-[10px] lg:px-[6px] xl:px-[8px] 2xl:px-[25px] shadow-bs w-[13%]">
+                        <Img
+                          src="images/img_arrowleft.svg"
+                          className="mt-2 arrowleft3"
+                          onClick={handleNavigate78}
+                          alt="arrowleft"
+                        />
+                      </Stack>
+                      <Button
+                        className="font-bold mr-2 lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[84%]"
+                        shape="RoundedBorder3"
+                        onClick={handleNavigate100}
+                        size="xl"
+                        variant="FillLightblue800"
+                      >
+                        Continue
+                      </Button>
+                    </Row>
                   </Column>
-                </Stack>
+                </Column>
               </Column>
-              <Column className="bg-blue_50 justify-start lg:ml-[290px] xl:ml-[363px] 2xl:ml-[409px] 3xl:ml-[491px] lg:mt-[339px] xl:mt-[424px] 2xl:mt-[477px] 3xl:mt-[572px] p-[4px] shadow-bs w-[22%]">
+              <Column className="bg-blue_50 justify-start lg:ml-[290px] xl:ml-[363px] 2xl:ml-[409px] 3xl:ml-[491px] lg:mt-[339px] xl:mt-[424px] 2xl:mt-[477px] 3xl:mt-[572px] p-[4px] shadow-bs w-[21%]">
                 <Img
                   src="images/img_close.svg"
                   className="close_One"

@@ -10,9 +10,6 @@ const PricingandcalendarYesPage = () => {
   function handleNavigate89() {
     navigate("/pricingandcalendarno");
   }
-  function handleNavigate90() {
-    navigate("/");
-  }
   function handleNavigate91() {
     navigate("/pricingandcalendaryestwo");
   }
@@ -105,34 +102,40 @@ const PricingandcalendarYesPage = () => {
                 </Row>
               </Column>
             </Column>
-          </Column>
-          <Line className="bg-gray_200 h-[1px] w-[100%]" />
-          <Row>
-            <Stack className="lg:h-[53px] xl:h-[66px] 2xl:h-[75px] 3xl:h-[89px] xl:ml-[124px] 2xl:ml-[140px] 3xl:ml-[168px] lg:ml-[99px] lg:mt-[14px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] w-[39%]">
-              <Stack className="common-pointer absolute bg-white_A700 bottom-[0] lg:h-[35px] xl:h-[44px] 2xl:h-[50px] 3xl:h-[59px] left-[0] outline outline-[1px] outline-light_blue_500 3xl:px-[10px] lg:px-[6px] xl:px-[8px] 2xl:px-[9px] shadow-bs w-[13%]">
-                <Img
-                  src="images/img_arrowleft.svg"
-                  className="arrowleft"
-                  onClick={handleNavigate90}
-                  alt="arrowleft"
-                />
-              </Stack>
-              <Column className="absolute items-end justify-start w-[100%]">
+            <Column className="items-center justify-start lg:mt-[17px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] w-[100%]">
+              <Column
+                className="common-pointer items-center justify-start w-[100%]"
+              >
                 <Line className="bg-gray_200 h-[1px] w-[100%]" />
-                <Button
-                  className="common-pointer font-bold hover:bg-sky-900 lg:mt-[14px] xl:mt-[18px] 2xl:mt-[21px] 3xl:mt-[25px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[84%]"
-                  onClick={handleNavigate91}
-                  size="xl"
-                  shape="RoundedBorder3"
-                  variant="FillLightblue800"
-                >
-                  Continue
-                </Button>
+                <Row className="items-center justify-between lg:mt-[12px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] w-[100%]">
+                  <Stack
+                    className="common-pointer bg-white_A700 lg:h-[35px] xl:h-[44px] 2xl:h-[50px] 3xl:h-[59px] outline outline-[1px] outline-light_blue_500 3xl:px-[10px] lg:px-[6px] xl:px-[8px] 2xl:px-[25px] shadow-bs w-[13%]"
+                  >
+                    <Img
+                      src="images/img_arrowleft.svg"
+                      className="mt-3 arrowleft3"
+                      onClick={handleNavigate89}
+                      alt="arrowleft"
+                    />
+                  </Stack>
+                  <Button
+                    className="font-bold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[85%]"
+                    shape="RoundedBorder3"
+                    onClick={handleNavigate91}
+                    size="xl"
+                    variant="FillLightblue800"
+                  >
+                    Continue
+                  </Button>
+                </Row>
               </Column>
-            </Stack>
-          </Row>
-          <Column className="bg-blue_50 justify-start 2xl:ml-[1113px] 3xl:ml-[1336px] lg:ml-[791px] xl:ml-[990px] lg:mt-[56px] xl:mt-[71px] 2xl:mt-[80px] 3xl:mt-[96px] p-[4px] shadow-bs w-[19.5%]">
-            <Img src="images/img_close.svg" className="close_One" alt="close" />
+            </Column>
+          </Column>
+          <Column className="bg-blue_50 justify-start 2xl:ml-[1250px] 3xl:ml-[1336px] lg:ml-[791px] xl:ml-[990px] lg:mt-[56px] xl:mt-[71px] 2xl:mt-[80px] 3xl:mt-[96px] p-[4px] shadow-bs w-[18.5%]">
+            <Img 
+            src="images/img_close.svg" 
+            className="close_One" 
+            alt="close" />
             <Column className="justify-start xl:mb-[10px] 2xl:mb-[12px] 3xl:mb-[14px] lg:mb-[8px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] mx-[auto] w-[92%]">
               <Text className="columndescription_two" variant="body4">
                 Is there anything preventing you from <br />
